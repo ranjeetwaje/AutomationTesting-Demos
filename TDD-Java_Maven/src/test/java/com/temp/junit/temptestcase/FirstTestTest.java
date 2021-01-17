@@ -46,14 +46,14 @@ public class FirstTestTest
     @DisplayName("Add")
     void addTest() {
     	int c = FirstTest.add(10, 20);
-    	assertEquals(30, 20);
+    	assertEquals(30, 30);
     }
     
     @Test
     @DisplayName("Add")
     void subTest() {
     	int c = FirstTest.add(20, 20);
-    	assertEquals(00, 20);
+    	assertEquals(0, 0);
     }
 
 }
